@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89e3f20c-71c0-4369-b0c5-25a8dc7effd2" name="Changes" comment="" />
+    <list default="true" id="89e3f20c-71c0-4369-b0c5-25a8dc7effd2" name="Changes" comment="。。。">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientAuthorizer/ClientAuthorizer.go" beforeDir="false" afterPath="$PROJECT_DIR$/ClientAuthorizer/ClientAuthorizer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandleListener/FuncType.go" beforeDir="false" afterPath="$PROJECT_DIR$/HandleListener/FuncType.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandleListener/HandleListener.go" beforeDir="false" afterPath="$PROJECT_DIR$/HandleListener/HandleListener.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDClient.go" beforeDir="false" afterPath="$PROJECT_DIR$/TDClient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegramLib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/telegramLib.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +23,20 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../../Go/V1_18" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2CQCjw3sFPIQIfKjWciWT69OTTi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,14 +44,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/work/go/WorkSpace/src/ttmyth123/telegramLib/demo/winOut&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\go\WorkSpace\src\ttmyth123\telegramLib\demo\winOut" />
+      <recent name="D:\work\go\WorkSpace\src\ttmyth123\telegramLib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\go\WorkSpace\src\ttmyth123\telegramLib\demo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build github.com/TtMyth123/telegramLib/demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="telegramLib" />
+      <working_directory value="$PROJECT_DIR$/demo" />
+      <envs>
+        <env name="CGO_CFLAGS" value="-IC:/path/to/tdlib/include" />
+        <env name="CGO_LDFLAGS" value="-LC:/path/to/tdlib/bin -ltdjson" />
+      </envs>
+      <kind value="PACKAGE" />
+      <package value="github.com/TtMyth123/telegramLib/demo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/demo/main.go" />
+      <output_directory value="./winOut" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/TtMyth123/telegramLib/demo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,8 +96,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658725561910</updated>
+      <workItem from="1658725563520" duration="6436000" />
+      <workItem from="1658734236267" duration="3701000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -52,6 +114,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="。。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="。。。" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
