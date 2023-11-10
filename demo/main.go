@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/TtMyth123/telegramLib"
+	"github.com/TtMyth123/telegramLib/libType"
 	"github.com/astaxie/beego"
 	"github.com/zelenin/go-tdlib/client"
 )
@@ -14,17 +15,19 @@ func main() {
 
 	aTDClient := telegramLib.NewTDClient(apiId, apiHash, "+8613707720054", "", true)
 	aTDClient.HandleListener.UpdateUserStatus = UpdateUserStatus
-	aTDClient.HandleListener.UpdateNewMessage = UpdateNewMessage
+	aTDClient.HandleListener.UpdateNewMessageText = UpdateNewMessageText
 
 	var phoneNumber string
 	fmt.Scanln(&phoneNumber)
 
 }
 
-func UpdateUserStatus(data client.UpdateUserStatus) {
+func UpdateUserStatus(data client.UpdateUserStatus) (map[string]interface{}, error) {
 	fmt.Println(data)
+	return nil, nil
 }
 
-func UpdateNewMessage(data client.UpdateNewMessage) {
-	fmt.Println(data.Message)
+func UpdateNewMessageText(data libType.Message) (map[string]interface{}, error) {
+	fmt.Println(data)
+	return nil, nil
 }

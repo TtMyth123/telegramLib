@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e3f20c-71c0-4369-b0c5-25a8dc7effd2" name="Changes" comment="。。。">
+      <change afterPath="$PROJECT_DIR$/kit/kit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kit/kitC.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libType/type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientAuthorizer/ClientAuthorizer.go" beforeDir="false" afterPath="$PROJECT_DIR$/ClientAuthorizer/ClientAuthorizer.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HandleListener/FuncType.go" beforeDir="false" afterPath="$PROJECT_DIR$/HandleListener/FuncType.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HandleListener/HandleListener.go" beforeDir="false" afterPath="$PROJECT_DIR$/HandleListener/HandleListener.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TDClient.go" beforeDir="false" afterPath="$PROJECT_DIR$/TDClient.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegramLib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/telegramLib.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,33 +32,39 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../../Go/V1_18" />
+  <component name="GOROOT" url="file://D:/work/go/sdk/go1.18" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2CQCjw3sFPIQIfKjWciWT69OTTi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/work/go/WorkSpace/src/ttmyth123/telegramLib/demo/winOut&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "E:/D/work/work/go/WorkSpace/src/ttmyth123/telegramLib",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work\go\WorkSpace\src\ttmyth123\telegramLib\demo\winOut" />
@@ -97,8 +104,21 @@
       <option name="presentableId" value="Default" />
       <updated>1658725561910</updated>
       <workItem from="1658725563520" duration="6436000" />
-      <workItem from="1658734236267" duration="3701000" />
+      <workItem from="1658734236267" duration="20990000" />
+      <workItem from="1658790727626" duration="6851000" />
+      <workItem from="1659198428292" duration="25000" />
+      <workItem from="1659225035032" duration="2891000" />
+      <workItem from="1661219379253" duration="14000" />
+      <workItem from="1699606876785" duration="97000" />
     </task>
+    <task id="LOCAL-00001" summary="。。。">
+      <created>1658739942244</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658739942244</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,5 +141,16 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TDClient.go</url>
+          <line>103</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
