@@ -176,7 +176,6 @@ func (t *TDClient) goListener() {
 						fmt.Println("GetType:", GetType, "data:", strBb)
 					}
 				}
-
 			}
 		}(aListener)
 
