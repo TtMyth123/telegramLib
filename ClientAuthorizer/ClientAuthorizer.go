@@ -45,9 +45,9 @@ func (stateHandler *TtClientAuthorizer) Handle(client11 *client.Client, state cl
 		_, err := client11.SetTdlibParameters(<-stateHandler.TdlibParameters)
 		return err
 
-	case client.TypeAuthorizationStateWaitEncryptionKey:
-		_, err := client11.CheckDatabaseEncryptionKey(&client.CheckDatabaseEncryptionKeyRequest{})
-		return err
+	//case client.TypeAuthorizationStateWaitEncryptionKey:
+	//	_, err := client11.CheckDatabaseEncryptionKey(&client.CheckDatabaseEncryptionKeyRequest{})
+	//	return err
 
 	case client.TypeAuthorizationStateWaitPhoneNumber:
 		_, err := client11.SetAuthenticationPhoneNumber(&client.SetAuthenticationPhoneNumberRequest{

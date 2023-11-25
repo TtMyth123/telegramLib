@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/TtMyth123/kit v0.0.0-20220607183512-dc07ad67cd38
 	github.com/astaxie/beego v1.12.3
-	github.com/zelenin/go-tdlib v0.6.0
+	github.com/zelenin/go-tdlib v0.7.0
 )
 
 require (
