@@ -7,7 +7,7 @@ import (
 
 type TtClientAuthorizer struct {
 	client.AuthorizationStateHandler
-	TdlibParameters chan *client.TdlibParameters
+	TdlibParameters chan *client.SetTdlibParametersRequest
 	PhoneNumber     chan string
 	Code            chan string
 	State           chan AuthorizationState
@@ -21,7 +21,7 @@ type TtClientAuthorizer struct {
 
 func ClientAuthorizer(PhoneNumber, Password string, isC bool) *TtClientAuthorizer {
 	aTtClientAuthorizer := &TtClientAuthorizer{
-		TdlibParameters: make(chan *client.TdlibParameters, 1),
+		TdlibParameters: make(chan *client.SetTdlibParametersRequest, 1),
 		PhoneNumber:     make(chan string, 1),
 		Code:            make(chan string, 1),
 		State:           make(chan AuthorizationState, 10),
@@ -42,9 +42,7 @@ func (stateHandler *TtClientAuthorizer) Handle(client11 *client.Client, state cl
 
 	switch state.AuthorizationStateType() {
 	case client.TypeAuthorizationStateWaitTdlibParameters:
-		_, err := client11.SetTdlibParameters(&client.SetTdlibParametersRequest{
-			Parameters: <-stateHandler.TdlibParameters,
-		})
+		_, err := client11.SetTdlibParameters(<-stateHandler.TdlibParameters)
 		return err
 
 	case client.TypeAuthorizationStateWaitEncryptionKey:
