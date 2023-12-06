@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="89e3f20c-71c0-4369-b0c5-25a8dc7effd2" name="Changes" comment="。。。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDClient.go" beforeDir="false" afterPath="$PROJECT_DIR$/TDClient.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +26,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../sdk/go1.18" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../../Tool/SDK/Go/go1.18" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -71,12 +73,21 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="go build github.com/TtMyth123/telegramLib/demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="telegramLib" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="telegramLib/demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="telegramLib" />
       <working_directory value="$PROJECT_DIR$/demo" />
       <envs>
-        <env name="CGO_CFLAGS" value="-IC:/path/to/tdlib/include" />
-        <env name="CGO_LDFLAGS" value="-LC:/path/to/tdlib/bin -ltdjson" />
+        <env name="CGO_CFLAGS" value="-ID:/work/go/CgoLib/tdlib/include" />
+        <env name="CGO_LDFLAGS" value="-LD:/work/go/CgoLib/tdlib/bin -ltdjson" />
       </envs>
       <kind value="PACKAGE" />
       <package value="github.com/TtMyth123/telegramLib/demo" />
@@ -85,9 +96,19 @@
       <output_directory value="./winOut" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="telegramLib" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/TtMyth123/telegramLib/demo" />
+        <item itemvalue="Go Build.telegramLib/demo" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +130,7 @@
       <workItem from="1700552845212" duration="642000" />
       <workItem from="1700634321758" duration="631000" />
       <workItem from="1700896708085" duration="2411000" />
+      <workItem from="1701857317985" duration="1786000" />
     </task>
     <task id="LOCAL-00001" summary="。。。">
       <created>1658739942244</created>

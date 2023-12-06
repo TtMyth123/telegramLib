@@ -49,7 +49,7 @@ func (t *TDClient) init(apiId int32, apiHash, phoneNumber, Password string, isC 
 	authorizer := ClientAuthorizer.ClientAuthorizer(phoneNumber, Password, isC)
 	go authorizer.CliInteractor()
 
-	authorizer.TdlibParameters <- &client.TdlibParameters{
+	authorizer.TdlibParameters <- &client.SetTdlibParametersRequest{
 		UseTestDc:              false,
 		DatabaseDirectory:      filepath.Join(".tdlib", "database"),
 		FilesDirectory:         filepath.Join(".tdlib", "files"),
@@ -270,7 +270,7 @@ func (t *TDClient) SendMessage(ChatId, ReplyToMessageId int64, Text string) erro
 	}
 	req := &client.SendMessageRequest{}
 	req.ChatId = ChatId
-	req.ReplyToMessageId = ReplyToMessageId
+	//req.ReplyToMessageId = ReplyToMessageId
 	aInputMessage1 := &client.InputMessageText{}
 	aInputMessage1.Text = kit.FormattedText(Text)
 	req.InputMessageContent = aInputMessage1
@@ -284,7 +284,7 @@ func (t *TDClient) SendMessageContact(ChatId, ReplyToMessageId int64, PhoneNumbe
 	}
 	req := &client.SendMessageRequest{}
 	req.ChatId = ChatId
-	req.ReplyToMessageId = ReplyToMessageId
+	//req.ReplyToMessageId = ReplyToMessageId
 	aInputMessage1 := &client.InputMessageContact{}
 	aInputMessage1.Contact = &client.Contact{}
 	aInputMessage1.Contact.FirstName = FirstName
@@ -300,7 +300,7 @@ func (t *TDClient) SendMessagePhotoFileLocal(ChatId, ReplyToMessageId int64, Pat
 	}
 	req := &client.SendMessageRequest{}
 	req.ChatId = ChatId
-	req.ReplyToMessageId = ReplyToMessageId
+	//req.ReplyToMessageId = ReplyToMessageId
 
 	aInputFileLocal := client.InputFileLocal{}
 	aInputFileLocal.Path = Path
@@ -320,7 +320,7 @@ func (t *TDClient) SendMessageAudioFileLocal(ChatId, ReplyToMessageId int64, Pat
 	}
 	req := &client.SendMessageRequest{}
 	req.ChatId = ChatId
-	req.ReplyToMessageId = ReplyToMessageId
+	//req.ReplyToMessageId = ReplyToMessageId
 
 	aInputFileLocal := client.InputFileLocal{}
 	aInputFileLocal.Path = Path
@@ -340,7 +340,7 @@ func (t *TDClient) SendMessageVideoFileLocal(ChatId, ReplyToMessageId int64, Pat
 	}
 	req := &client.SendMessageRequest{}
 	req.ChatId = ChatId
-	req.ReplyToMessageId = ReplyToMessageId
+	//req.ReplyToMessageId = ReplyToMessageId
 
 	aInputFileLocal := client.InputFileLocal{}
 	aInputFileLocal.Path = Path
@@ -360,7 +360,7 @@ func (t *TDClient) SendMessageAnimationFileLocal(ChatId, ReplyToMessageId int64,
 	}
 	req := &client.SendMessageRequest{}
 	req.ChatId = ChatId
-	req.ReplyToMessageId = ReplyToMessageId
+	//req.ReplyToMessageId = ReplyToMessageId
 
 	aInputFileLocal := client.InputFileLocal{}
 	aInputFileLocal.Path = Path
