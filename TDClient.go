@@ -23,10 +23,6 @@ func init() {
 	MpI["updateChatReadOutbox"] = true
 	MpI["updateChatLastMessage"] = true
 	MpI["updateConnectionState"] = true
-	MpI["updateChatReadInbox"] = true
-	MpI["updateChatReadInbox"] = true
-	MpI["updateChatReadInbox"] = true
-	MpI["updateChatReadInbox"] = true
 }
 
 type TDClient struct {
